@@ -1,0 +1,126 @@
+nav {
+    background-color: #3878ff;
+    padding: 5px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.nav-link.active {
+    color: white !important;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: white !important;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p{
+    color: rgb(133, 132, 132);
+}
+.header-section {
+    background-color: #eff2f6;
+    padding: 30px 20px;
+}
+
+.button-container{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.features{
+    background-color: white;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.features h2{
+    margin: 5px 0 25px;
+}
+
+.feature h3 {
+    font-size: 18px;
+}
+
+.popular-courses {
+    background-color: #eff2f6;
+    padding: 30px;
+    text-align: center;
+}
+
+.card-img-top {
+    color: rgb(100, 99, 99) !important;
+}
+
+.courses-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    width: 31%;
+    min-width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.footer {
+    background-color: #3878ff;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.course-card {
+    width: 100% !important;
+    max-width: 450px !important;
+    flex: 1 1 40 0px;
+    margin: 10px !important;
+}
+
+
+
+
